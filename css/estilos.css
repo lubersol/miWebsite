@@ -1,7 +1,14 @@
 body {
     margin:0;
-    font-family: sans-serif
-};
+    color: #4D4D4D;
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 300;
+}
 .navbar {
     margin-bottom: 0px;
+}
+header .navbar .navbar-nav {
+    margin-top: 19px;
 }
