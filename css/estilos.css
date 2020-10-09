@@ -8,6 +8,7 @@ body {
 }
 .navbar {
     margin-bottom: 0px;
+    width: -webkit-fill-available;
 }
 header .navbar .navbar-nav {
     margin-top: 19px;
