@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website personal Lucía Bermejo</title>
+    <title>Contacto</title>
     <!-- Estilos BootStrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!-- Mis estilos -->
     <link rel="stylesheet" href="css/estilos.css">
 </head>
+
 <body>
     <header>
         <!-- contenedor general de toda la cabecera -->
@@ -19,49 +21,53 @@
                 <!-- contenedor logo -->
                 <nav class="navbar navbar-light bg-light">
                     <a class="navbar-brand" href="#">
-                        <img src="img/iconoWeb.png" class="img-responsive" width="30" height="30" class="d-inline-block align-top"
-                            alt="">
+                        <img src="img/iconoWeb.png" class="img-responsive" width="30" height="30"
+                            class="d-inline-block align-top" alt="">
                         LBS
                     </a>
                 </nav>
-                    
 
-                    <!-- contenedor menú de navegación bootstrap -->
-                    
+
+                <!-- contenedor menú de navegación bootstrap -->
+
             </div>
         </div>
     </header>
 
-    <!-- MAIN CONTAINER -->
+    <!-- CONTAINER PRINCIPAL -->
 
     <section>
-        <div class="container">
-            <h1 class="h1center">Contacto</h1>
-            <form class="form-horizontal form-contact" role="form" method="post" action="/contact.php">
-                <input type="hidden" name="fdabot" value="1602240770" />
-                <div class="col-md-12">
-                    <div class="form-group">
-                        <label for="nomPrenom" class="col-sm-3 col-md-4 control-label">Nombre</label>
-                        <div class="col-sm-6 col-md-5">
-                            <input type="text" name="nomPrenom" id="nomPrenom" class="form-control" placeholder="Votre nom" value="" required />
+        <h1 class="titulo">Contacto</h1>
+        <div class="container" id="capaCentral">
+
+            <form class="form-horizontal form-contact formulario" role="form" method="post" action="/contact.php">
+                <!-- <input type="hidden" name="" value="" /> -->
+                <div class="col-md-12" id="contFormu">
+                    <div class="form-group bloque">
+                        <label for="nombre" class="col-sm-3 col-md-4 control-label cajita">Nombre</label>
+                        <div class="col-sm-6 col-md-5 cajita">
+                            <input type="text" name="" id="nombre" class="form-control"
+                                placeholder="Introduce tu nombre" value="" required />
                         </div>
                     </div>
-                    <div class="form-group">
-                        <label for="adresseEmail" class="col-sm-3 col-md-4 control-label">Email</label>
-                        <div class="col-sm-6 col-md-5">
-                            <input type="text" name="adresseEmail" id="adresseEmail" class="form-control" placeholder="Votre adresse email" value="" required />
+                    <div class="form-group bloque">
+                        <label for="email" class="col-sm-3 col-md-4 control-label cajita">Email</label>
+                        <div class="col-sm-6 col-md-5 cajita">
+                            <input type="text" name="email" id="email" class="form-control"
+                                placeholder="Introduce tu Email" value="" required />
                         </div>
                     </div>
-                    <div class="form-group">
-                        <label for="message" class="col-sm-3 col-md-4 control-label">Mensaje</label>
-                        <div class="col-sm-6 col-md-5">
-                            <textarea class="form-control" name="message" id="message" rows="5" placeholder="Votre message"></textarea>
+                    <div class="form-group bloque">
+                        <label for="message" class="col-sm-3 col-md-4 control-label cajita" id="mensaje">Mensaje</label>
+                        <div class="col-sm-6 col-md-5 cajita">
+                            <textarea class="form-control" name="mensaje" rows="5"
+                                placeholder="Deja tu mensaje"></textarea>
                         </div>
                     </div>
-                    <div class="form-group">
-                        <label for="submitformcontact" class="col-sm-3 col-md-4 control-label">&nbsp;</label>
-                        <div class="col-sm-6 col-md-5">
-                            <button type="submit" id="submitformcontact" class="btn-bleu btn btn-default btn-valider-css">Enviar</button>
+                    <div class="form-group bloque">
+                        <label for="submitformcontact" class="col-sm-3 col-md-4 cajita">&nbsp;</label>
+                        <div class="col-sm-6 col-md-5 cajita">
+                            <button type="button" class="btn btn-primary">Enviar</button>
                         </div>
                     </div>
                 </div>
@@ -69,12 +75,6 @@
         </div>
 
     </section>
-
-    <!-- FOOTER -->
-
-    <footer>
-
-    </footer>
 
     <!-- Enlaces BootStrap -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -88,4 +88,5 @@
         crossorigin="anonymous"></script>
 
 </body>
+
 </html>
