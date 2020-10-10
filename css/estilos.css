@@ -93,8 +93,16 @@ width:100%
     display:grid;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 25% 25% 25% 25%;
-    justify-items: center;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;
+}
+#titularH3 {
+    text-align: center;
+    color: rgb(36, 36, 41);
+    margin-bottom: 1em;
+}
+span {
+    font-family: monospace;    
+    color:rgb(42, 44, 158)
 
 }
