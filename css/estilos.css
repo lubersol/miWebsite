@@ -30,13 +30,12 @@ header .navbar .navbar-nav {
 /* ESTILOS SECTION MAIN DE PAGINA INDEX */
 
 #main {
+    display:flex;
     width: 100%;
-    height: 75%;
 	background: linear-gradient(-45deg, #e0adc5, #ca91a7, #93b8c5, #b0ddd3);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 }
-
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
@@ -48,7 +47,18 @@ header .navbar .navbar-nav {
 		background-position: 0% 50%;
 	}
 }
-
+.footer {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: rgb(179, 162, 189);
+    align-content: space-around;
+}
+.datos{
+    margin: 1em;
+    /* padding: 2em; */
+    /* margin: 2em; */
+}
 /* ESTILOS PÁGINA DE CONTACTO */
 
 #capaCentral{
@@ -133,7 +143,7 @@ header .navbar .navbar-nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ebe1e7;
+    background-color: #faf6f9;
 }
 h2 {
     margin-left: 3em;
