@@ -89,6 +89,25 @@ width:100%
 
 /* ESTILOS PAGINA PORTFOLIO */
 
+/* Estilos para sección sobre mí */
+.personal {
+display: inline-flex;
+}
+h2 {
+    margin-left: 2em;
+    width: 60%;
+}
+#sobreMi {
+    font-size: 1em;
+    width: 60%;
+    margin-left: 3.5em;
+    margin-right: 3.5em;
+    margin-top: 3em;
+}
+#miFoto {
+    border-radius: 50%;
+}
+/* Estilos para sección lenguajes y tecnologías */
 .container {
     display:grid;
     grid-template-columns: 25% 25% 25% 25%;
@@ -104,5 +123,4 @@ width:100%
 span {
     font-family: monospace;    
     color:rgb(42, 44, 158)
-
 }
