@@ -8,28 +8,38 @@
     <!-- Estilos BootStrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Tipografia de fuente de google -->
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <!-- Mis estilos -->
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 
 <body>
+    <!-- HEADER: BRAND - NAVBAR  -->
     <header>
         <!-- contenedor general de toda la cabecera -->
         <div class="navbar" role="navigation">
             <!-- contenedor que incluye logo y menú navegación -->
             <div class="container">
                 <!-- contenedor logo -->
-                <nav class="navbar navbar-light bg-light">
-                    <a class="navbar-brand" href="index.html">
-                        <img src="img/iconoWeb.png" class="img-responsive" width="30" height="30"
-                            class="d-inline-block align-top" alt="">
-                        LBS
+                <div class="logo-brand">
+                    <img src="img/iconoPC.png" class="img-responsive"
+                        class="d-inline-block align-top" alt="">
+                    <span id="LBS">LuBerSol</span>
                     </a>
-                </nav>
-
-
-                <!-- contenedor menú de navegación bootstrap -->
-
+                </div>
+                <!-- Menú de navegación -->
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </header>
