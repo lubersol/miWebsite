@@ -35,7 +35,7 @@ header .navbar .navbar-nav {
     width: 100%;
     background-image: url("/img/fondoTecno.jpg");
 }
-.item { 
+.itemTitulo { 
     /* background-color: #111111; */
     display: flex;
     height: 100%;
@@ -71,7 +71,6 @@ header .navbar .navbar-nav {
 }
 .footer {
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     background-color: #faf6f9;
     align-content: space-around;
@@ -80,9 +79,43 @@ header .navbar .navbar-nav {
 }
 .datos{
     margin: 1em;
-    /* padding: 2em; */
-    /* margin: 2em; */
 }
+a:hover {
+    text-decoration: none;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 575px) {
+.footer{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+.datos {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin: 0;
+}
+}
+/* Small devices (landscape phones)*/
+@media (min-width: 576px){
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+}
+/* Medium devices (tablets) */
+@media (min-width: 768px) {
+.footer{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    }
+}
+
 /* ESTILOS PÁGINA DE CONTACTO */
 
 #capaCentral{
@@ -106,6 +139,9 @@ header .navbar .navbar-nav {
 .formulario{
     width:100%
 }
+.bloque {
+    margin-top: 1em;
+}
 .cajita {
     display: inline-block;
     margin: 0;
@@ -117,10 +153,14 @@ header .navbar .navbar-nav {
 #mensaje {
     vertical-align: top;
 }
+#cajaBoton {
+    margin-top:0;
+}
 #boton {
     display:flex;
     justify-content: center;
     align-items: center;
+    vertical-align: center;
     
 }
 /* Viewports para ipad */
@@ -277,26 +317,38 @@ h2 {
   }
 /* Viewports ipads */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  {
+header {
+    width:90%;
+}
+.personal{
+    flex-wrap: wrap;
+}
 #tituloH2{
-    margin-left: 1em;
-    width: 15%; 
+    margin-right: 6em;
+    width: 100%; 
     font-size: larger;
-    text-align: left;
+    text-align: center;
 }
 #sobreMi {
     font-size: 1em;
-    width: 100%;
+    width: 85%;
     margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 2.5em;
 }
-    #miFoto {
+#miFoto {
     margin-right: 0;
     margin-left: 0;
+    align-content: center;
+    align-items: center;
 }
 #grid {
     padding-top: 1em;
+    padding-left: 0;
+    margin-left: 0.3em;
 }
 }
-@media only screen and (min-device-width : 481px) and (max-device-width : 767px)  {
+@media only screen and (min-device-width : 520px) and (max-device-width : 720px)  {
 .personal {
     flex-wrap: wrap;
 }
