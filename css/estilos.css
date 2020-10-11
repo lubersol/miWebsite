@@ -98,7 +98,7 @@ a:hover {
 }
 }
 /* Small devices (landscape phones)*/
-@media (min-width: 576px){
+@media only screen and (min-device-width : 769px) and (max-device-width : 1024px)  {
 .footer {
     display: flex;
     flex-direction: column;
@@ -106,7 +106,7 @@ a:hover {
 }
 }
 /* Medium devices (tablets) */
-@media (min-width: 768px) {
+@media (min-width: 576px) and (max-width: 768px) {
 .footer{
     display:flex;
     flex-direction: column;
