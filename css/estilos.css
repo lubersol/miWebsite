@@ -35,18 +35,48 @@ header .navbar .navbar-nav {
     width: 100%;
     background-image: url("/img/fondoTecno.jpg");
 }
-.item {
-    
+.item { 
+    /* background-color: #111111; */
+    display: flex;
+    height: 100%;
+    width: 100%;
+    padding: 0.75rem;
+    justify-content: center;
+    /* align-items: center; */
 }
-.titulo {
-    
+#titulo1, #titulo2, #titulo3 {
+    /* color: #faf6f9;    */
+    color:#111111;
+    font-family: sans-serif;
+    /* margin-top: 2%; */
+    /* margin-bottom: 2%; */
+    font-size: 6vw;
+    text-shadow: 4px 4px 0px #3F7FBF;
+    mix-blend-mode: screen;
+    animation: fadeIn 2.5s linear forwards;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1;
+    }
+}
+#titulo1 {
+    text-align: center;
+}
+#titulo3 {
+    text-align: right;
 }
 .footer {
     display: flex;
     /* justify-content: center; */
     align-items: center;
-    background-color: #ebe1e7;
+    background-color: #faf6f9;
     align-content: space-around;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
 }
 .datos{
     margin: 1em;
