@@ -30,7 +30,7 @@ header .navbar .navbar-nav {
     display:flex;
     flex-direction: column;
     width: 100%;
-    background-image: url("/img/fondoTecno.jpg");
+    background-image: url('https://raw.githubusercontent.com/lubersol/websitepersonal/img/fondoTecno.jpg');
 }
 .itemTitulo { 
     /* background-color: #111111; */
